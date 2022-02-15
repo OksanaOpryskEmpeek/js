@@ -1,17 +1,17 @@
-// function getMin(a,b){
-//   return a < b ? a : b;
-// }
-// function getMax(a,b){
-//   return a > b ? a : b;
-// }
+function getMin(a,b){
+  return a < b ? a : b;
+}
+function getMax(a,b){
+  return a > b ? a : b;
+}
 
 
-// const paramA = prompt("Enter a:", '');
-// const paramB = prompt("Enter b:", '');
-// const min = getMin(paramA,paramB);
-// const max = getMax(paramA,paramB);
-// alert ("Min is = " + min);
-// alert ("Max is = " + max);
+const paramA = prompt("Enter a:", '');
+const paramB = prompt("Enter b:", '');
+const min = getMin(paramA,paramB);
+const max = getMax(paramA,paramB);
+alert ("Min is = " + min);
+alert ("Max is = " + max);
 
 
 function ask(question, yes, no) {
