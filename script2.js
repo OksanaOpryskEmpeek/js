@@ -25,7 +25,7 @@ ask(
   function() { alert("Вы отменили выполнение."); }
 );
 
-const handleYes = () =>  alert("Вы согласились.");
+const handleYes = () =>  alert("Вы согласились!.");
 const handleNo = () =>  alert("Вы отменили выполнение.");
 let ask = (question, yes, no) => confirm(question) ?
 yes():
